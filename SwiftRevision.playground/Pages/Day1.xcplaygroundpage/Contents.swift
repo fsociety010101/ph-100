@@ -12,9 +12,9 @@ playerName = "Sam"
 print(playerName)
 
 
-// Constants
+
+// Constants - cant redeclarate/change
 let character = "Daphne"
-// cant redeclarate/change
 
 
 
@@ -53,15 +53,14 @@ print(number.isMultiple(of: 3))
 print(120.isMultiple(of: 3))
 
 
+
 // Decimals
 let a = 1
 let b = 2.0
 
-let c = a + b
+let ca = a + Int(b)
 
-let c = a + Int(b)
-
-let c = Double(a) + b
+let cb = Double(a) + b
 
 let double1 = 3.1
 let double2 = 3131.3131
